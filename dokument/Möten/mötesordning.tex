@@ -1,0 +1,97 @@
+\documentclass[9pt]{article}
+\usepackage{a4wide}
+\usepackage[swedish]{babel}
+\usepackage{graphicx}               %for graphics
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{eurosym}                %for euro sign \euro
+\usepackage{parskip}
+\usepackage{lscape}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{xspace}                 %for normal spacing behind commands
+\usepackage[utf8]{inputenc}         %so that we can use ë and ä and all those nice letters
+\usepackage{fancyhdr}               %for fancy headers!
+
+\newcounter{apcount}
+\newcommand{\ap}{\stepcounter{apcount}\textbf{Action Point \arabic{apcount}:}\xspace}
+
+%Gruppmedlemmar
+\newcommand{\Waser}{Erik Waser\xspace}
+\newcommand{\Slaget}{Albin Otterhäll\xspace}
+\newcommand{\Max}{Max Adolfsson\xspace}
+\newcommand{\Kim}{Michael Hägg\xspace} 
+\newcommand{\Algen}{Filip Lindset\xspace}
+\newcommand{\Kres}{Kresimir Popovic\xspace}
+
+%for Vincent:
+\newcommand{\oktober}{October\xspace}
+
+%change these variables
+\newcommand{\datum}{20/9 2021} %fill in the date
+\newcommand{\notulen}{Protokoll \datum \xspace}
+%vul voor n het nummer in
+
+\pagestyle{fancy}
+\lhead{\notulen}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+
+%make sure you have downloaded train.png and put it in the same folder as this file
+\begin{document}
+\begin{center}
+    %\includegraphics[scale=0.25]{TRAIN.png}\\
+    \Large{\textbf{Grupp Joy Möte}}\\
+    \normalsize
+    \datum \\ %Sekreterare: %YOUR NAME
+\end{center}
+
+\begin{description} %fill in who is present and mention who needs to make the minutes.
+  \item [Närvarande:] \Waser, \Slaget, \Kim, \Algen, \Max, \\ \Kres
+  \item [På distans:]
+  \item [Frånvarande:] 
+
+\end{description}
+
+\section{Mötet öppnas}
+
+\section{Runda bordet}
+
+\section{Fastslå föredragningslista}
+
+\section{Förra veckan}
+\textbf{\Waser}\\
+\textbf{\Slaget}\\
+\textbf{\Kim}\\
+\textbf{\Algen}\\
+\textbf{\Max}\\
+\textbf{\Kres}\\
+
+\section{Kommande vecka}
+\subsection{User stories}
+
+\section{Nästa möte}
+\textbf{När?} \\
+\textbf{Var?} \\
+
+\section{Övriga frågor}
+
+\section{Mötet avslutas}
+
+
+\appendix
+\section{TODO}
+\begin{tabular}{| p{3cm} | p{7.5cm} | p{3cm}|}
+  \hline
+  \textbf{Vem?} & \textbf{Vad?} & \textbf{När?} \\ \hline
+  \textbf{} & \textbf{} & \textbf{} \\ \hline
+
+
+  \end{tabular}
+\section{Att ta upp nästa möte}
+
+\end{document} 
