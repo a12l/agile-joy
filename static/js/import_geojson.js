@@ -6,7 +6,7 @@ var geojson;
 d3.json('data/lan_7.0.geojson')
     .then(d => geojson = d)
     .then(import_agedata)
-    .then(update)
+    .then(draw_map)
     .then(clickable);
 
 /* structure of the lan_7.0.geojson file:

@@ -116,3 +116,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Mac OS X skäpfiler
+.DS_Store
+
+# vim
+*.sw?
