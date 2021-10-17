@@ -21,8 +21,6 @@ svg {
 
 #legend {}
 
-#table {}
-
 .data {
     letter-spacing:-0.06em;
     font-size:1.5em;
@@ -37,6 +35,8 @@ svg {
     float:left;
 }
 
-
+.buttons {
+    margin: 0 1em;
+}
 /* .map path {stroke: #000;
 stroke-width: 1px} */

@@ -26,3 +26,4 @@ d3.json('data/lan_7.0.geojson')
 function get_geojson_features(){
     return geojson.features;
 }
+

@@ -30,8 +30,21 @@ function handle_ageselect() {
     update();
 }
 
+var display_table = 0;
+function handle_button_toggle_table() {
+    if(display_table == 0){
+       display_table = 1;
+       d3.select("div#table").style("visibility", "visible"); 
+    }else {
+       display_table = 0;
+       d3.select("div#table").style("visibility", "hidden"); 
+    }
+}
+
 function clickable() {
     d3.selectAll("path").on("mouseover", handle_mouseover);
     d3.selectAll("path").on("mouseout", handle_mouseout);
     d3.select("#ageselect").on("change", handle_ageselect);
+    d3.select("#button_table").on("click", handle_button_toggle_table);
 }
+

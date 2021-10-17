@@ -96,11 +96,15 @@ function draw_map(){
       https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d */
        .attr('d', geoGenerator)
 
-//    add_legend("#legend");
 
     /* Set some initial values */
     d3.select("select#ageselect").node().value = agespan; // selector
     data_div_title="Västra Götalands län"; // select the county
 
+//    add_legend("#legend");
+
+    add_table(age_data, "div#table");
+    /* add colours to the map */
     update();
 }
+
