@@ -1,6 +1,6 @@
 
-function init() {
-    update();
+function init () {
+  update()
 }
 
-init();
+init()

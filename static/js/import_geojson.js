@@ -1,13 +1,13 @@
 
-var geojson;
+let geojson
 
 /* Gets map data, after that imports age data, after that updating the view,
    after that connects mouse events */
 d3.json('data/lan_7.0.geojson')
-    .then(d => geojson = d)
-    .then(import_agedata)
-    .then(update)
-    .then(clickable);
+  .then(d => geojson = d)
+  .then(import_agedata)
+  .then(update)
+  .then(clickable)
 
 /* structure of the lan_7.0.geojson file:
 
@@ -23,6 +23,6 @@ d3.json('data/lan_7.0.geojson')
 */
 
 /* returns the features of the selected object (look at the structure above) */
-function get_geojson_features(){
-    return geojson.features;
+function get_geojson_features () {
+  return geojson.features
 }
