@@ -1,3 +1,6 @@
+# Gets the latest data from https://github.com/codler/sweden-coronavirus and
+# converts it to a CSV file.
+
 #!/bin/bash
 
 NAME=Folkhalsomyndigheten_Covid19_latest

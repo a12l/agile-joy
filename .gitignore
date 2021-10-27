@@ -119,3 +119,6 @@ dist
 
 # Mac OS X skäpfiler
 .DS_Store
+
+# vim
+*.sw?

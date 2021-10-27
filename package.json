@@ -1,20 +1,18 @@
 {
-  "name": "sverigekarta",
-  "version": "6.6.6",
-  "description": "Sverigekarta som visar statistik",
-  "main": "run.js",
+  "name": "statistik-karta",
+  "version": "0.0.1",
+  "description": "Karta över Sverige med statistik.",
+  "main": "server/app.js",
   "scripts": {
-    "start": "node ./run.js",
-    "dev": "nodemon ./run.js",
-    "test": "standard",
-    "codefix": "standard --fix"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Group Joy",
-  "dependencies": {
-    "express": "^4.17.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a12l/agile-joy.git"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.13",
-    "standard": "^16.0.4"
-  }
+  "author": "Team Joy",
+  "bugs": {
+    "url": "https://github.com/a12l/agile-joy/issues"
+  },
+  "homepage": "https://github.com/a12l/agile-joy#readme"
 }

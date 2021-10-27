@@ -1,12 +1,12 @@
 
 body {
     margin: 10px;
-    background: #444;
+    background: #ccc;
     font: 1.2em sans-serif;
 }
 
 svg {
-    background: #444;
+    background: #ccc;
 }
 
 #ageselect {
@@ -16,19 +16,34 @@ svg {
 #data_div {
     width: 20em;
     margin: -20em 0 0 20em;
-    color: #fff;
+    color: #000;
 }
 
-#legend {}
-
-#table {}
-
-.lan {
+.data {
     letter-spacing:-0.06em;
-    font-size:1.5em;
-    font-weight:bold;
     float:left;
     width:100%;
+}
+
+.title {
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+.subtitle {
+    margin: 0.5em 0 0.3em 0;
+}
+
+.row0 {
+    margin: 0 0 0.3em 0;
+}
+
+.row1 {
+    margin: 0 0 0.6em;
+}
+
+.row2 {
+    font-weight: bold;
 }
 
 .datum {
@@ -37,6 +52,8 @@ svg {
     float:left;
 }
 
-
+.buttons {
+    margin: 0 1em;
+}
 /* .map path {stroke: #000;
 stroke-width: 1px} */
