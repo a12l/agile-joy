@@ -9,4 +9,4 @@ This remains unchanged still. One of the reasons I haven't felt that I could hel
 For this final sprint its mostly been focusing on finishing the remaining user stories and fixing the bugs, I participated in the meetings but other than that I haven't contributed much.
 
 ## What is my contribution towards the team's deliveries?
-This week I didn't contribute anything since most of the user stories we were working on were from last week were mostly done and just needed to be merged together and fixing bugs. This was something that some of the team members were working on.
+This week I didn't contribute much since most of the user stories we were working on were from last week were mostly done and just needed to be merged together and fixing bugs. This was something that some of the team members were working on.
