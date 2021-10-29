@@ -73,4 +73,4 @@ The map ./static/data/lan_7.0.geojson is converted using qgis, layer import,
 then export layer as GeoJSON with option RFC7946 enabled. The original file
 used was ./resources/tab_svenska_210505.zip owned by Lantmäteriet.
 
-![drawing](https://raw.githubusercontent.com/a12l/agile-joy/main/resources/screenshot_joy.png)
+<img src="/resources/screenshot_joy.png" alt="Screenshot Joy" width="400px;"/>
