@@ -1,7 +1,7 @@
 
 # agile-joy
-=======
-Whos who: 
+
+## Whos who: 
 
 **a12l** - Albin Otterhäll                                                      
                                                                                 
@@ -15,10 +15,38 @@ Whos who:
                                                                                 
 **maxvalter** - Max Adolfsson 
 
----------------------
+## Kanban Board
+
 Trello: https://trello.com/invite/b/HtnTx0tS/47a934255dc7b8294ad22a78c059c892/kanban-board
 
----------------------
+## Install and startup instructions
+
+To start the application you need to first download the source code in some way.
+The easiest way is to clone it using `git` with the command
+
+```
+https://github.com/a12l/agile-joy.git
+```
+
+After you've finished downloading the source code you need to enter the directory with `cd agile-joy`.
+Now you need to download the project's dependencies.
+Before you run the commands you need to have `npm` installed.
+Consult the documentaiton for your operative system for instructions on how to install `npm`.
+To do that you need to run the commandny
+
+```
+npm install
+```
+
+After downloading the dependencies you only need to run the command
+
+```
+npm start
+```
+
+and go to https://localhost:3000 to begin using the application.
+
+## Where you can find the different components
 
 In /static you will find all the code. From there index.htm is the main html file, with relevant CSS and JavaScript files in separate folders.
 
