@@ -1,17 +1,18 @@
-This example is using D3
-https://d3js.org
-https://github.com/d3
+Whos who: 
+a12l - Albin Otterhäll
+Knogds - Kresimir Popovic
+Erikwaser - Erik Waser
+Filiplindset - Filip Lindset
+maxvalter - Max Adolfsson
+kimpaws/kimpawsible - Michael Hägg
+---------------------
+Trello: https://trello.com/invite/b/HtnTx0tS/47a934255dc7b8294ad22a78c059c892/kanban-board
 
-and modified example code from https://www.d3indepth.com
+---------------------
+
+In /static you will find all the code. From there index.htm is the main html file, with relevant CSS and JavaScript files in separate folders.
 
 
-./resources/get_Folkhalsomyndigheten_Covid19_latest.sh
-Gets the latest data from https://github.com/codler/sweden-coronavirus and
-converts it to a CSV file.
 
-The map ./static/data/lan_6.0.geojson is converted using qgis, layer import,
-then export layer as GeoJSON with option RFC7946 enabled. The original file
-used was ./resources/tab_svenska_210505.zip owned by Lantmäteriet.
 
-./static/bare_index.html
-without local access, using js, geoJSON, cvs data from github
+
