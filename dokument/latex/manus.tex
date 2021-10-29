@@ -1,0 +1,49 @@
+\documentclass[]{article}
+\begin{document}
+\textbf{\huge{Manus för onsdag 20/10}}
+
+\section{Introducera projektet, \textbf{Älgen}}
+Vi har gjort en heatmap över hur många människor som har fått första vaccindosen mot Covid-19 i sveriges län.
+Kartan visar antalet människor som har vaccinerat sig i varje län när man hovrar över det på kartan med musen.
+
+\subsection{Koppling till målen}
+Vi valde attfokusera på mål 3: God hälsa och välbefinnande. Det kan väl knappast ha undgått någon att vi är mitt uppe i en pandemi så att ha ett projekt som handlar om covid vart väldigt nära till hands. 
+
+\subsection{Varför?}
+Vi ville bygga ett brett projekt som vi kunde göra lite vad vi ville med. Grundidén var att bygga hemsida som visualiserar statistik, och att egentligen vilken statistik som helst skulle kunna visas (förutsatt att staitstiken är uppdelad för varje län i Sverige). Vi satte upp grundmålet att visa upp statistik för hur många som fått sin första dos vaccin för varje län. På grund av tidsbrist märkte vi att det inte skulle vara möjligt att implementera annan statistik, och det blev till slut enbart en karta som visar antal vaccinerade per capita.
+
+
+\section{Processen, \textbf{Max}}
+\subsection{Scrum master och Product Owner}
+Under projektets gång turades vi om så att alla skulle få inta rollen som Scrum Master och Product Owner. Mer om detta kommer vi nämna i lärdomar.
+
+\subsection{Scrumboard}
+Vi har använt oss av Trello för vår Scrumboard. Vi har en product backlog, sprint backlog, doing, code review och done. Alla User Stories är markerade med vilken sprint de gjorts, vilka som deltagit och hur stor uppgiften var, för att göra det tydligt i vem som gör vad och hur mycket tid det förväntas ta.
+
+
+\subsection{Våra designval}
+
+\subsubsection{leaflet och d3}
+I början av projektet hittade vi ett hyfsat väldokumenterat bibliotek för att hantera kartografi vid namn Leaflet. Det var dock inte det snyggaste rent estetiskt, och hade inte heller alla de funktionerna vi önskade av vårt projekt. Vi hittade biblioteket D3, ett väldokumenterat bibliotek som hade de funktioner vi sökte, och det är det vi hållit oss till under resten av projektet.
+
+\section{Lärdomar, \textbf{Waser}}
+\subsection{Svårt att dela upp i tårtbitarna. }
+Under projektets gång så stötte vi flertalet gånger på samma problem, i det att vi hade svårt att fördela ut arbetsuppgifterna. Speciellt i början, då vi skrev vår kod i en enda HTML-fil, istället för att dela upp det i flera JS-filer. Vi valde denna approach lite senare i projektet, vilket gjorde det lättare för oss att jobba parallellt.
+
+\subsection{Scrum Master och Product Owner}
+Vi valde en struktur där vi bytte Scrum Master och Product Owner varje vecka. Detta för att alla skulle få prova på och känna in sig i rollerna. För oss kom dock detta med mer problem än vinst. Det var svårt för oss att sätta oss in i rollerna innan det var någon annans tur att ta över. Vi tror att om vi hade haft längre sprints eller mer fasta roller så hade vi kunnat få en bättre uppfattning av vad rollerna innebär. 
+
+\subsection{Github och kommunikation}
+
+Vi valde att arbeta på samma sätt som är vanligt med open source projekt som använder en ``Git Forge''.
+Grundprincipen är att varje gruppmedlem skapar en ``fork'' av repositoriet, och sedan arbetar mot forken.
+När man sedan har något färdigt så skapar man en pull request mot huvudrepositoriet.
+Innan koden sedan mergas så gör en annan gruppmedlem en kodrecension av koden för att säkerställa kodkvalitén.
+
+Vi har primärt kommunicerat via Discord, där typ allt vi har gjort och kommit överens om har nedtecknats.
+Mötesantecknignar har gjorts via Overleaf, som har varit synkroniserat med git repot.
+
+\subsection{Sprintlängd}
+Efter projektets ungefär 4 första veckor var vi alla ganska överens om att våra sprints kändes för korta. Vårt upplägg var att ha ett möte på måndag direkt efter mötet med vår handledare, där vi gick igenom vad vi skulle producera denna sprint. På fredag eller torsdag hade vi ett möte där vi gick igenom vad vi producerat i veckan. Detta ledde till mycket stress, och en oförmåga att kunna producera något ordentligt innan fredagen. Detta orsakade egentligen att tisdag till torsdag var de enda dagarna man hade på sig att arbeta, vilket ledde till stress och att vi inte producerade det vi hoppades på att kunna göra. Vi löste detta problem senare genom att flytta det andra mötet till söndag, och att ha fler avstämmor under veckan. Vi blev mycket mer synkroniserade, och producerade både mer och bättre kod.
+
+\end{document}
