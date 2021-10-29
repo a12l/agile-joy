@@ -1,7 +1,6 @@
 
 <html lang="en">
     <head>
-        <!--- The sourcefiles we employ ---> 
         <script type="text/javascript" src="js/d3.v7.min.js"></script>
         <script type="text/javascript" src="js/draw_map.js"></script>
         <script type="text/javascript" src="js/add_legend.js"></script>
@@ -11,9 +10,10 @@
         <script type="text/javascript" src="js/import_geojson.js"></script>
         <link rel="stylesheet" href="css/mainstyle.css">
         <link rel="stylesheet" href="css/table.css">
+        <link rel="stylesheet" href="css/legend.css">
     </head>
 <body>
-    <!--- Creating the dropdown menu --->
+
 <div style="width:100%;float:left">
 <select name="Välj åldersgrupp" id="ageselect">
     <option value="18-19 år">18-19 år</option>
@@ -35,17 +35,15 @@
     <option value="95-99 år">95-99 år</option>
     <option value="100+ år">100+ år</option>
 </select>
+<button id="button_table" class="buttons">Toggle Table</button>
 </div>
 
-<!--- Sets width and height of the map --->
-<svg width="320px" height="500px">
+<svg width="350px" height="550px">
     <g class="map"></g>
 </svg>
 
-<div id="data_div"></div>
-
 <div id="legend"></div>
-
+<div id="data_div"></div>
 <div id="table"></div>
 
 </body>
